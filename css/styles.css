@@ -58,7 +58,6 @@ a {
   height: 24px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -72,7 +71,6 @@ a {
   height: 24px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -97,6 +95,22 @@ a {
   height: 24px;
   left: 156px;
   top: 24px;
+  width: 44px;
+  height: 21px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: bold;
 }
 
 .logo-first-part {
@@ -192,6 +206,7 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 188px 472px 292px 472px;
+  line-height: 1.07;
 }
 .order-service-button {
   display: flex;
@@ -218,6 +233,8 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
 }
 /* section two */
 .section-two-index {
