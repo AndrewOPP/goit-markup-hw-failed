@@ -1,8 +1,9 @@
 /* main page */
-.main-page {
+.all-page {
   width: 1440px;
   height: 2592px;
   background: #ffffff;
+  position: relative;
 }
 
 /* header */
@@ -79,6 +80,10 @@ a {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.list {
+  list-style: none;
 }
 
 /* header logo */
