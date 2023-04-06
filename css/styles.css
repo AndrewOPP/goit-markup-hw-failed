@@ -2,8 +2,9 @@
 .all-page {
   width: 1440px;
   height: 2592px;
-  background: #ffffff;
+  background: #434455;
   position: relative;
+  font-family: "Roboto", sans-serif;
 }
 
 /* header */
@@ -58,6 +59,7 @@ a {
   height: 24px;
   font-family: "Roboto";
   font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -71,6 +73,7 @@ a {
   height: 24px;
   font-family: "Roboto";
   font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
