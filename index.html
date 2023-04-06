@@ -5,27 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    />
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="top-of-the-page">
       <!-- Navigation -->
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a href="./index.html" class="logo">
+          <span class="logo-first-part">Web</span
+          ><span class="logo-second-part">Studio</span></a
+        >
+        <ul class="navigation-in-header">
+          <div class="navigation-words">
+            <li class="navigation-word-one">
+              <a href="./portfolio.html">Studio</a>
+            </li>
+            <li class="navigation-word-two"><a href="">Portfolio</a></li>
+            <li class="navigation-word-three"><a href="">Contacts</a></li>
+          </div>
         </ul>
       </nav>
 
       <!-- Additional Information -->
       <address>
         <ul>
-          <li>
+          <li class="mailto">
             <a href="mailto:info@devstudio.com"> info@devstudio.com</a>
           </li>
-          <li>
+          <li class="tel">
             <a href="tel:+110001111111"> +11 (000) 111-11-11</a>
           </li>
         </ul>
@@ -33,15 +48,17 @@
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main class="main-page">
       <!-- Section 1 -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-one-index">
+        <h1 class="main-words">Effective Solutions for Your Business</h1>
+        <button type="button" class="order-service-button">
+          <span class="button-words">Order Service</span>
+        </button>
       </section>
 
       <!-- Section 2 -->
-      <section>
+      <section class="section-two-index">
         <h2>What are we doing</h2>
         <ul>
           <li>
