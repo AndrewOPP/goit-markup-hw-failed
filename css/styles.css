@@ -13,10 +13,11 @@
 
 /* header */
 .top-of-the-page {
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
 }
 .navigation-words {
   display: flex;
@@ -144,6 +145,8 @@
   top: 72px;
   width: 1440px;
   height: 600px;
+  background-color: #2e2f42;
+  position: absolute;
 }
 
 .main-words {
@@ -151,7 +154,7 @@
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #c42b2b;
+  color: #ffffff;
 }
 .order-service-button {
   background-color: #4d5ae5;
