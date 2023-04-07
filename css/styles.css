@@ -387,24 +387,16 @@
   left: 0px;
   top: 1548px;
   background-color: #f4f4fd;
+  color: #2e2f42;
 }
 
 .section-four-index-title {
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1668px;
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  line-height: 1.11;
 }
 .section-four-index-descriptions {
   display: flex;
@@ -443,7 +435,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
@@ -514,5 +506,4 @@
   top: 2356px;
 }
 .page-footer-logo {
-  color: #f4f4fd;
 }
