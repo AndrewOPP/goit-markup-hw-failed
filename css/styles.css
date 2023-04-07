@@ -20,12 +20,11 @@
 
 .link {
   text-decoration: none;
+  color: #434455;
 }
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
+.navigation .link:hover,
+.navigation .link:focus {
+  color: #404bbf;
 }
 
 .navigation-words {
@@ -102,7 +101,6 @@ a {
   top: 24px;
   width: 44px;
   height: 21px;
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -159,7 +157,12 @@ a {
 }
 
 /* Additional Information */
-.mailto a {
+
+.add-information .link:hover,
+.add-information .link:focus {
+  color: #404bbf;
+}
+.mailto {
   position: absolute;
   width: 153px;
   height: 24px;
@@ -174,7 +177,7 @@ a {
   color: #434455;
 }
 
-.tel a {
+.tel {
   position: absolute;
   width: 151px;
   height: 24px;
@@ -200,6 +203,7 @@ a {
 }
 
 .main-words {
+  position: absolute; /*cant understand*/
   width: 496px;
   height: 120px;
   left: 472px;
@@ -212,7 +216,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin: 188px 472px 292px 472px;
+  margin: 188px 472px 292px 472px; /*should be deleted*/
   line-height: 1.07;
 }
 .order-service-button {
@@ -254,6 +258,11 @@ a {
   flex-grow: 0;
   letter-spacing: 0.04em;
   line-height: 1.5;
+}
+.order-service-button:hover,
+.order-service-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 /* section two */
 .section-two-index {
@@ -350,42 +359,20 @@ a {
   left: 156px;
   top: 1016px;
 }
-
-.photo-one {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 0px;
-  top: 112px;
-}
-.photo-two {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 386px;
-  top: 112px;
-}
-.photo-three {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 768px;
-  top: 112px;
+.main-idea {
+  position: absolute; /*cant understand*/
+  width: 323px;
+  height: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-left: 406px; /*should be changed*/
 }
 
 /* Section four */
@@ -396,19 +383,4 @@ a {
   left: 0px;
   top: 1548px;
   background-color: #f4f4fd;
-}
-.main-idea {
-  width: 323px;
-  height: 0px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-left: 406px;
-  padding-bottom: 20px;
 }
