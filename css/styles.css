@@ -1,3 +1,5 @@
+:root {
+}
 /* main page */
 .all-page {
   width: 1440px;
@@ -373,6 +375,7 @@
   text-transform: capitalize;
   color: #2e2f42;
   margin-left: 406px; /*should be changed*/
+  line-height: 1.11;
 }
 
 /* Section four */
@@ -383,4 +386,66 @@
   left: 0px;
   top: 1548px;
   background-color: #f4f4fd;
+}
+
+.section-four-index-title {
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 1668px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.section-four-index-descriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 232px;
+  height: 56px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.section-four-index-names {
+  width: 134px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.section-four-index-text {
+  width: 128px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
