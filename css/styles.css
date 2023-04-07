@@ -1,4 +1,5 @@
 :root {
+  --brand-color: #4d5ae5;
 }
 /* main page */
 .all-page {
@@ -477,4 +478,41 @@
   left: 0px;
   top: 2280px;
   background: #2e2f42;
+}
+.page-footer-text {
+  position: absolute;
+  width: 264px;
+  height: 72px;
+  left: 156px;
+  top: 2396px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.page-footer-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 115px;
+  height: 24px;
+  left: 156px;
+  top: 2356px;
+  line-height: 1.17;
+}
+.page-footer-content {
+  position: absolute;
+  width: 264px;
+  height: 112px;
+  left: 156px;
+  top: 2356px;
+}
+.page-footer-logo {
+  color: #f4f4fd;
 }
