@@ -204,6 +204,14 @@
   top: 72px;
   background: #2e2f42;
 }
+.section-one-index {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background: #2e2f42;
+}
 
 .main-words {
   font-size: 56px;
@@ -221,7 +229,7 @@
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-/*  .button-words {
+.button-words {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -233,14 +241,16 @@
   flex-grow: 0;
   letter-spacing: 0.04em;
   line-height: 1.5;
-}*/
+}
 
 .order-service-button:hover,
 .order-service-button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
+
 /* section two */
+
 .section-two-index {
   position: absolute;
   width: 1128px;
@@ -248,6 +258,7 @@
   left: 156px;
   top: 792px;
 }
+
 .abouts {
   font-weight: 500;
   font-size: 20px;
@@ -316,6 +327,7 @@
 }
 
 /* section three */
+
 .section-three-index {
   position: absolute;
   width: 1128px;
@@ -323,6 +335,7 @@
   left: 156px;
   top: 1016px;
 }
+
 .main-idea {
   font-size: 36px;
   line-height: 1.11;
@@ -333,6 +346,7 @@
 }
 
 /* Section four */
+
 .section-four-index {
   position: absolute;
   width: 1440px;
@@ -352,20 +366,6 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-.section-four-index-descriptions {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 8px;
-  width: 232px;
-  height: 56px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .section-four-index-names {
@@ -393,40 +393,4 @@
   left: 0px;
   top: 2280px;
   background: #2e2f42;
-}
-.page-footer-text {
-  position: absolute;
-  width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 2396px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-.page-footer-link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 2356px;
-  line-height: 1.17;
-}
-.page-footer-content {
-  position: absolute;
-  width: 264px;
-  height: 112px;
-  left: 156px;
-  top: 2356px;
-}
-.page-footer-logo {
 }
