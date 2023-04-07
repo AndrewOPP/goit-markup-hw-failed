@@ -143,20 +143,8 @@
 /* section-one */
 
 .section-one-index {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
   left: 0px;
   top: 72px;
-  background: #2e2f42;
-}
-.section-one-index {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
-  background: #2e2f42;
 }
 
 .main-words {
@@ -164,7 +152,7 @@
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #c42b2b;
 }
 .order-service-button {
   background-color: #4d5ae5;
