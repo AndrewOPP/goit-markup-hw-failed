@@ -30,19 +30,6 @@
   color: #404bbf;
 }
 
-.navigation-words {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
-}
-
 .navigation-word-one {
   font-weight: 500;
   font-size: 16px;
