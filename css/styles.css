@@ -5,7 +5,7 @@
 .all-page {
   width: 1440px;
   height: 2592px;
-  background: #ffffff;
+  background-color: #ffffff;
   color: #434455;
   position: relative;
   font-family: "Roboto", sans-serif;
@@ -43,47 +43,26 @@
   top: 24px;
 }
 
-.navigation-word-one a {
-  width: 48px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
+.navigation-word-one {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  color: #2e2f42;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: #2e2f42;
 }
-.navigation-word-two a {
-  width: 66px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
+.navigation-word-two {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
-.navigation-word-three a {
-  width: 67px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
+.navigation-word-three {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .list {
@@ -93,32 +72,13 @@
 
 /* header logo */
 .logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
-  width: 44px;
-  height: 21px;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  font-weight: bold;
-  font-family: "Raleway", sans-serif;
-  line-height: 1.17;
 }
 
 .logo-first-part {
